@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mat1asortiz/order-summary-component-main.git)
-- Live Site URL: [Add live site URL here](https://mat1asortiz.github.io/order-summary-component-main/)
+- Solution URL: [https://github.com/mat1asortiz/order-summary-component-main.git](https://github.com/mat1asortiz/order-summary-component-main.git)
+- Live Site URL: [https://mat1asortiz.github.io/order-summary-component-main](https://mat1asortiz.github.io/order-summary-component-main/)
 
 ## My process
 
@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [MatiasOrtiz](https://portafolio-matias-ortiz.000webhostapp.com/)
+- Website - [Matias Ortiz](https://portafolio-matias-ortiz.000webhostapp.com/)
 - Frontend Mentor - [@mat1asortiz](https://www.frontendmentor.io/profile/mat1asortiz)
