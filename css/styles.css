@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+/* Primary */
+
+--paleBlue: hsl(225, 100%, 94%);
+--brightBlue: hsl(245, 75%, 52%);
+--fuente: 'Red Hat Display', sans-serif;
+
+/* Neutral */
+
+--veryPaleBlue: hsl(225, 100%, 98%);
+--desaturatedBlue: hsl(224, 23%, 55%);
+--darkBlue: hsl(223, 47%, 23%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--paleBlue);
+    font-family: var(--fuente);
+}
+
+h1 {
+    color: var(--darkBlue);
+}
+h4 {
+    color: var(--darkBlue);
+}
+p {
+    color: var(--desaturatedBlue);
+    font-size: 16px;
+}
+
+a {
+    color: var(--desaturatedBlue)
+}
+
+.grid {
+    height: 700px;
+    max-width: 450px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imagen img{
+    width: 100%;
+
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 45px;
+}
+
+.descripcion {
+    margin-bottom: -10px;
+}
+
+.descripcion p {
+    margin-top: 20px;
+    padding: 0 1em;
+}
+
+.fondo-plan {
+    background-color: var(--veryPaleBlue);
+    border-radius: 20px;
+}
+
+.plan-descripcion {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.plan img{
+    width: 50%;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+}
+.plan-contenido {
+    margin: auto 1.5em;
+}
+
+.cambio {
+    display: flex;
+    align-items: center;
+    flex-direction: end;
+}
+
+.cambio a {
+    color: var(--brightBlue);
+}
+
+button {
+    padding: 1em;
+    width: 100%;
+    background-color: var(--brightBlue);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 0px 25px 1em var(--paleBlue);
+    font-family: var(--fuente);
+    cursor: pointer;
+}
+
+.cancelar a{
+    text-decoration: none;
+}
