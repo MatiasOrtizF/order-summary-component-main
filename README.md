@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/mat1asortiz/order-summary-component-main.git](https://github.com/mat1asortiz/order-summary-component-main.git)
-- Live Site URL: [https://mat1asortiz.github.io/order-summary-component-main](https://mat1asortiz.github.io/order-summary-component-main/)
+- Solution URL: [https://github.com/mat1asortiz/order-summary-component-main](https://github.com/mat1asortiz/order-summary-component-main)
+- Live Site URL: [https://mat1asortiz.github.io/order-summary-component-main](https://mat1asortiz.github.io/order-summary-component-main)
 
 ## My process
 
