@@ -39,26 +39,26 @@ p {
     color: var(--desaturatedBlue);
     font-size: 16px;
 }
-
 a {
     color: var(--desaturatedBlue)
 }
 
+.attribution { 
+    margin: 30px auto;
+    padding: 0 30px;
+}
 .grid {
-    height: 700px;
-    max-width: 450px;
+    max-width: 500px;
     background-color: white;
     display: grid;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 0.3fr 1fr;
     border-radius: 20px;
     overflow: hidden;
 }
-
 .imagen img{
     width: 100%;
-
+    display: inherit;
 }
-
 
 .contenido {
     display: flex;
@@ -67,32 +67,25 @@ a {
     text-align: center;
     padding: 45px;
 }
-
-.descripcion {
-    margin-bottom: -10px;
-}
-
 .descripcion p {
-    margin-top: 20px;
-    padding: 0 1em;
+    padding: 20px 1em;
 }
-
+.boton {
+    padding: 30px 0px;
+}
 .fondo-plan {
     background-color: var(--veryPaleBlue);
     border-radius: 20px;
 }
-
 .plan-descripcion {
     display: flex;
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
 }
-
 .plan img{
     width: 50%;
 }
-
 .plan {
     display: flex;
     flex-direction: row;
@@ -100,17 +93,14 @@ a {
 .plan-contenido {
     margin: auto 1.5em;
 }
-
 .cambio {
     display: flex;
     align-items: center;
     flex-direction: end;
 }
-
 .cambio a {
     color: var(--brightBlue);
 }
-
 button {
     padding: 1em;
     width: 100%;
@@ -118,12 +108,26 @@ button {
     color: white;
     border: none;
     border-radius: 10px;
-    /* offset-x | offset-y | blur-radius | color */
     box-shadow: 0px 25px 1em var(--paleBlue);
     font-family: var(--fuente);
     cursor: pointer;
 }
-
 .cancelar a{
     text-decoration: none;
 }
+
+@media (max-width: 480px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    .contenido {
+        padding: 30px 15px;
+    }
+    .plan-descripcion {
+        padding: 15px;
+    }
+}   
